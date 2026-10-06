@@ -2,7 +2,7 @@ import { Phone, Mail, MapPin, Calendar } from "lucide-react";
 
 export function ContactSection() {
   return (
-    <section className="py-24 md:py-32 bg-[--foreground]">
+    <section className="py-24 md:py-32 bg-[--accent]">
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Contact Info */}
