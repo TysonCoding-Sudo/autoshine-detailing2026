@@ -1,6 +1,6 @@
 /* AUTOSHINE DETAILING 2026 - Custom CSS Variables */
 :root {
-  --background: #252b3b;
+  --background: #37405a;
   --foreground: #f0f4f8;
   --accent: #1e2331;
   --card: #2c3346;
@@ -199,7 +199,7 @@
 /* Subtle blue gradient for hero background */
 .bg-hero-gradient {
   background: radial-gradient(ellipse at 50% 0%, rgba(0, 168, 255, 0.1) 0%, transparent 60%),
-              linear-gradient(180deg, #252b3b 0%, #1e2331 100%);
+              linear-gradient(180deg, #37405a 0%, #1e2331 100%);
 }
 
 /* Reduced motion preference */
