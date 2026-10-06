@@ -1,5 +1,6 @@
 import Link from "next/link";
-import { Car, Phone } from "lucide-react";
+import Image from "next/image";
+import { Phone } from "lucide-react";
 
 export function GlassNav() {
   return (
@@ -7,9 +8,14 @@ export function GlassNav() {
       <div className="max-w-7xl mx-auto h-20 flex items-center justify-between px-6">
         {/* Logo Area */}
         <Link href="/" className="flex items-center gap-3 group">
-          <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-[--blue] to-[--blue-dark] flex items-center justify-center group-hover:shadow-[0_0_15px_rgba(0,168,255,0.4)] transition-shadow duration-300">
-            <Car className="w-6 h-6 text-white" />
-          </div>
+          <Image
+            src="/logo.jpg"
+            alt="AUTOSHINE logo"
+            width={40}
+            height={40}
+            priority
+            className="h-10 w-auto rounded-lg object-contain group-hover:shadow-[0_0_15px_rgba(0,168,255,0.4)] transition-shadow duration-300"
+          />
           <div className="flex flex-col">
             <span className="text-lg font-bold tracking-wider uppercase text-[--foreground] leading-none">AUTOSHINE</span>
             <span className="text-[10px] text-[--blue] tracking-[0.2em] uppercase">Detailing & Spraypainting</span>
