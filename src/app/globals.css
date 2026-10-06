@@ -1,53 +1,52 @@
-/* AUTOSHINE DETAILING 2026 - Light/White Theme */
+/* AUTOSHINE DETAILING 2026 - Custom CSS Variables */
 :root {
-  --background: #ffffff;
-  --foreground: #0f172a;
-  --accent: #f8fafc;
-  --card: #ffffff;
-  --card-hover: #f1f5f9;
-  --border: #e2e8f0;
-  --muted: #64748b;
-  --muted-light: #94a3b8;
-  --success: #16a34a;
-  --blue: #0091ea;
-  --blue-dark: #0077c8;
-  --blue-glow: rgba(0, 145, 234, 0.25);
-  --metallic: #cbd5e1;
-  --metallic-dark: #94a3b8;
+  --background: #252b3b;
+  --foreground: #f0f4f8;
+  --accent: #1e2331;
+  --card: #2c3346;
+  --card-hover: #343d54;
+  --border: #3a4359;
+  --muted: #8a9ab0;
+  --muted-light: #66788f;
+  --success: #4ade80;
+  --blue: #00a8ff;
+  --blue-dark: #0088cc;
+  --blue-glow: rgba(0, 168, 255, 0.3);
+  --metallic: #e5e5e5;
+  --metallic-dark: #7a7a7a;
 }
 
 @import "tailwindcss";
 
-/* Glassmorphism Base - Light */
+/* Glassmorphism Base */
 .glass {
-  background: rgba(255, 255, 255, 0.75);
+  background: rgba(37, 43, 59, 0.75);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
-  border: 1px solid rgba(0, 145, 234, 0.12);
+  border: 1px solid rgba(0, 168, 255, 0.12);
 }
 
 .glass-hover {
-  background: rgba(255, 255, 255, 0.55);
+  background: rgba(37, 43, 59, 0.55);
   backdrop-filter: blur(10px);
   transition: backdrop-filter 0.3s ease, background 0.3s ease;
 }
 
 .glass-hover:hover {
-  background: rgba(255, 255, 255, 0.75);
+  background: rgba(37, 43, 59, 0.75);
   backdrop-filter: blur(20px);
-  border-color: rgba(0, 145, 234, 0.25);
+  border-color: rgba(0, 168, 255, 0.2);
 }
 
-/* Skeuomorphic buttons - light with blue accent */
+/* Skeuomorphic buttons - subtle texture with electric blue accent */
 .btn-skeuomorphic {
   position: relative;
   padding: 12px 24px;
-  background: linear-gradient(135deg, #ffffff 0%, #f1f5f9 100%);
-  border: 1px solid #e2e8f0;
+  background: linear-gradient(135deg, #2c3346 0%, #252b3b 100%);
+  border: 1px solid #363e55;
   border-radius: 6px;
   overflow: hidden;
   transition: all 0.3s ease;
-  color: var(--foreground);
 }
 
 .btn-skeuomorphic::before {
@@ -57,7 +56,7 @@
   left: 0;
   right: 0;
   height: 2px;
-  background: linear-gradient(90deg, transparent, rgba(0, 145, 234, 0.5), transparent);
+  background: linear-gradient(90deg, transparent, rgba(0, 168, 255, 0.4), transparent);
 }
 
 .btn-skeuomorphic::after {
@@ -67,36 +66,36 @@
   left: 0;
   right: 0;
   height: 2px;
-  background: linear-gradient(270deg, transparent, rgba(0, 145, 234, 0.5), transparent);
+  background: linear-gradient(270deg, transparent, rgba(0, 168, 255, 0.4), transparent);
 }
 
 .btn-skeuomorphic:hover {
   border-color: var(--blue);
-  box-shadow: 0 4px 15px rgba(0, 145, 234, 0.15);
+  box-shadow: 0 0 20px rgba(0, 168, 255, 0.15), inset 0 0 20px rgba(0, 168, 255, 0.05);
 }
 
-/* Service card - light glass effect */
+/* Service card glass effect with blue accent */
 .service-card {
-  background: rgba(255, 255, 255, 0.9);
+  background: rgba(44, 51, 70, 0.85);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
-  border: 1px solid rgba(0, 145, 234, 0.08);
+  border: 1px solid rgba(0, 168, 255, 0.1);
   border-radius: 12px;
   transition: all 0.3s ease;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
 .service-card:hover {
   transform: translateY(-6px);
-  border-color: rgba(0, 145, 234, 0.3);
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08), 0 0 20px rgba(0, 145, 234, 0.08);
+  border-color: rgba(0, 168, 255, 0.3);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5), 0 0 30px rgba(0, 168, 255, 0.1), inset 0 1px 0 rgba(0, 168, 255, 0.1);
 }
 
-/* Price display - light skeuomorphism */
+/* Price display with subtle skeuomorphism + blue accent */
 .price-tag {
   display: inline-block;
-  background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
-  border: 1px solid rgba(0, 145, 234, 0.25);
+  background: linear-gradient(135deg, #2c3346 0%, #252b3b 100%);
+  border: 1px solid rgba(0, 168, 255, 0.25);
   border-radius: 6px;
   padding: 8px 16px;
   position: relative;
@@ -109,13 +108,13 @@
   left: 0;
   right: 0;
   height: 1px;
-  background: linear-gradient(90deg, transparent, rgba(0, 145, 234, 0.3), transparent);
+  background: linear-gradient(90deg, transparent, rgba(0, 168, 255, 0.3), transparent);
 }
 
 .price-tag::before { top: 0; }
 .price-tag::after { bottom: 0; }
 
-/* Nav link styles */
+/* Nav link styles with electric blue underline */
 .nav-link {
   position: relative;
   color: var(--muted);
@@ -131,6 +130,7 @@
   height: 2px;
   background: var(--blue);
   transition: width 0.3s ease;
+  box-shadow: 0 0 8px rgba(0, 168, 255, 0.5);
 }
 
 .nav-link:hover {
@@ -141,10 +141,11 @@
   width: 100%;
 }
 
-/* Form styles - light */
+/* Form styles with blue focus */
 .form-input {
-  background: rgba(255, 255, 255, 0.9);
-  border: 1px solid #e2e8f0;
+  background: rgba(44, 51, 70, 0.85);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(0, 168, 255, 0.15);
   border-radius: 6px;
   padding: 12px 16px;
   color: var(--foreground);
@@ -155,14 +156,14 @@
 .form-input:focus {
   outline: none;
   border-color: var(--blue);
-  box-shadow: 0 0 0 3px rgba(0, 145, 234, 0.12);
+  box-shadow: 0 0 0 3px rgba(0, 168, 255, 0.15), 0 0 15px rgba(0, 168, 255, 0.1);
 }
 
 .form-input::placeholder {
   color: var(--muted-light);
 }
 
-/* WhatsApp CTA */
+/* WhatsApp CTA - keep green but modernize */
 .whatsapp-cta {
   position: relative;
   padding: 16px 24px;
@@ -175,10 +176,10 @@
 
 .whatsapp-cta:hover {
   transform: translateY(-2px);
-  box-shadow: 0 10px 30px rgba(37, 211, 102, 0.35);
+  box-shadow: 0 10px 30px rgba(37, 211, 102, 0.4);
 }
 
-/* Section divider */
+/* Section divider with blue tint */
 .section-divider {
   height: 1px;
   background: linear-gradient(90deg, transparent, var(--border), transparent);
@@ -192,18 +193,13 @@
 
 /* Glow effect */
 .glow-blue {
-  box-shadow: 0 0 20px rgba(0, 145, 234, 0.2);
+  box-shadow: 0 0 20px rgba(0, 168, 255, 0.3);
 }
 
-/* Hero background - light with subtle blue tint */
+/* Subtle blue gradient for hero background */
 .bg-hero-gradient {
-  background: radial-gradient(ellipse at 50% 0%, rgba(0, 145, 234, 0.06) 0%, transparent 60%),
-              linear-gradient(180deg, #ffffff 0%, #f8fafc 100%);
-}
-
-/* Section alternating background */
-.bg-section-alt {
-  background: #f8fafc;
+  background: radial-gradient(ellipse at 50% 0%, rgba(0, 168, 255, 0.1) 0%, transparent 60%),
+              linear-gradient(180deg, #252b3b 0%, #1e2331 100%);
 }
 
 /* Reduced motion preference */

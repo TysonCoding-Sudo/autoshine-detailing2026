@@ -3,7 +3,7 @@ import { Car, Phone } from "lucide-react";
 
 export function GlassNav() {
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 backdrop-blur-xl bg-[rgba(255,255,255,0.8)] border-b border-[rgba(0,145,234,0.1)]">
+    <nav className="fixed top-0 left-0 right-0 z-50 backdrop-blur-xl bg-[rgba(37,43,59,0.75)] border-b border-[rgba(0,168,255,0.12)]">
       <div className="max-w-7xl mx-auto h-20 flex items-center justify-between px-6">
         {/* Logo Area */}
         <Link href="/" className="flex items-center gap-3 group">
