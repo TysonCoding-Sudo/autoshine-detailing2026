@@ -1,0 +1,8 @@
+{
+  "framework": "nextjs",
+  "region": "auto",
+  "buildCommand": "npm run build",
+  "outputDirectory": ".next/standalone",
+  "installCommand": "npm install",
+  "frameworkVersion": "16.3.8"
+}
