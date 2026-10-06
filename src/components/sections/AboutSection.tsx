@@ -11,7 +11,16 @@ export function AboutSection() {
               Professional Car Detailing Excellence
             </h2>
             <p className="text-[--muted] leading-relaxed mb-6">
-              Based in 838ALLEMANSDRIFT D MBIBANE 0449, Mpumalanga, AUTOSHINE DETAILING AND SPRAYPAINTING has been serving the automotive community with distinction. Our team combines technical expertise with artistic passion to deliver exceptional results for every vehicle that passes through our facility.
+              Based in{" "}
+              <a
+                href="https://www.google.com/maps/search/?api=1&query=838+Allemandsdrift+D+Mbibane+0449+Mpumalanga"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[--blue] hover:underline"
+              >
+                838 Allemandsdrift D, Mbibane 0449, Mpumalanga
+              </a>
+              , AUTOSHINE DETAILING AND SPRAYPAINTING has been serving the automotive community with distinction. Our team combines technical expertise with artistic passion to deliver exceptional results for every vehicle that passes through our facility.
             </p>
             <p className="text-[--muted] leading-relaxed">
               We understand that your vehicle is an investment, which is why we use only the highest quality materials and proven techniques. From subtle paint restoration to complete color changes, we approach every project with the same level of care and attention to detail.

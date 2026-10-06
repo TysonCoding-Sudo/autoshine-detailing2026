@@ -32,7 +32,14 @@ export function HeroSection() {
           {/* Location badge */}
           <div className="flex items-center justify-center gap-2 text-[--muted] text-sm mb-8">
             <MapPin className="w-4 h-4 text-[--blue]" />
-            <span>838 Allemandsdrift D, Mbibane 0449, Mpumalanga</span>
+            <a
+              href="https://www.google.com/maps/search/?api=1&query=838+Allemandsdrift+D+Mbibane+0449+Mpumalanga"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-[--blue] transition-colors"
+            >
+              838 Allemandsdrift D, Mbibane 0449, Mpumalanga
+            </a>
           </div>
         </div>
 
