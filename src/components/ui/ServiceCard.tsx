@@ -24,7 +24,7 @@ export function ServiceCard({
       <div className="p-6 flex flex-col min-h-[350px]">
         {/* Icon Section */}
         <div className="mt-2 flex items-center justify-center h-14 w-14 rounded-lg bg-[--card] mb-4">
-          <Icon className="w-6 h-6 text-[--gold]" />
+          <Icon className="w-6 h-6 text-[--blue]" />
         </div>
 
         {/* Title */}
@@ -40,7 +40,7 @@ export function ServiceCard({
         {/* Price (if provided) */}
         {price && (
           <div className="price-tag mb-4">
-            <span className="font-semibold text-[--gold]">R {price}</span>
+            <span className="font-semibold text-[--blue]">R {price}</span>
             <span className="text-[--muted] ml-2 per-mile">per vehicle</span>
           </div>
         )}
@@ -50,7 +50,7 @@ export function ServiceCard({
           <ul className="space-y-1 text-[--muted] text-sm line-clamp-4">
             {features.map((feature, index) => (
               <li key={index} className="flex items-start">
-                <span className="w-1.5 h-1.5 rounded-full bg-[--gold] mt-0.5 flex-srink-0"></span>
+                <span className="w-1.5 h-1.5 rounded-full bg-[--blue] mt-0.5 flex-srink-0"></span>
                 <span className="ml-2">{feature}</span>
               </li>
             ))}

@@ -22,8 +22,8 @@ export function GallerySection() {
 
           {/* After Image */}
           <div className="glass glass-hover aspect-[4/3] rounded-lg overflow-hidden group-hover:opacity-90 transition-opacity">
-            <div className="absolute inset-0 bg-gradient-to-b from-[--gold]/50 to-transparent"></div>
-            <div className="absolute inset-0 flex items-center justify-center text-[--gold] text-sm font-medium">
+            <div className="absolute inset-0 bg-gradient-to-b from-[--blue]/50 to-transparent"></div>
+            <div className="absolute inset-0 flex items-center justify-center text-[--blue] text-sm font-medium">
               After
             </div>
           </div>
@@ -38,8 +38,8 @@ export function GallerySection() {
 
           {/* Service Image 4 */}
           <div className="glass glass-hover aspect-[4/3] rounded-lg overflow-hidden group-hover:opacity-90 transition-opacity">
-            <div className="absolute inset-0 bg-gradient-to-b from-[--gold]/20 to-transparent"></div>
-            <div className="absolute inset-0 flex items-center justify-center text-[--gold] text-sm font-medium">
+            <div className="absolute inset-0 bg-gradient-to-b from-[--blue]/20 to-transparent"></div>
+            <div className="absolute inset-0 flex items-center justify-center text-[--blue] text-sm font-medium">
               Work
             </div>
           </div>

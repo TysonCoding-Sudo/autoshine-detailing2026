@@ -21,15 +21,15 @@ export function AboutSection() {
           {/* Statistics/Highlights */}
           <div className="space-y-4">
             <div className="glass glass-hover p-6 rounded-2xl backdrop-blur-xl">
-              <p className="text-4xl md:text-5xl font-bold text-[--gold]">+150</p>
+              <p className="text-4xl md:text-5xl font-bold text-[--blue]">+150</p>
               <p className="text-[--muted]">Vehicles Served</p>
             </div>
             <div className="glass glass-hover p-6 rounded-2xl backdrop-blur-xl">
-              <p className="text-4xl md:text-5xl font-bold text-[--gold]">8</p>
+              <p className="text-4xl md:text-5xl font-bold text-[--blue]">8</p>
               <p className="text-[--muted]">Years Experience</p>
             </div>
             <div className="glass glass-hover p-6 rounded-2xl backdrop-blur-xl">
-              <p className="text-4xl md:text-5xl font-bold text-[--gold]">98%</p>
+              <p className="text-4xl md:text-5xl font-bold text-[--blue]">98%</p>
               <p className="text-[--muted]">Customer Satisfaction</p>
             </div>
           </div>
