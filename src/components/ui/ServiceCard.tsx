@@ -1,11 +1,11 @@
-import { Uml } from "lucide-react";
+import type { LucideIcon } from "lucide-react";
 
 export interface ServiceCardProps {
   title: string;
   description: string;
   price?: string;
   features?: string[];
-  icon: any;
+  icon: LucideIcon;
   ctaText?: string;
   ctaLink?: string;
 }
@@ -15,7 +15,7 @@ export function ServiceCard({
   description,
   price,
   features = [],
-  icon,
+  icon: Icon,
   ctaText = "Get Quote",
   ctaLink = "#",
 }: ServiceCardProps) {
@@ -24,7 +24,7 @@ export function ServiceCard({
       <div className="p-6 flex flex-col min-h-[350px]">
         {/* Icon Section */}
         <div className="mt-2 flex items-center justify-center h-14 w-14 rounded-lg bg-[--card] mb-4">
-          <icon className="w-6 h-6 text-[--gold]" />
+          <Icon className="w-6 h-6 text-[--gold]" />
         </div>
 
         {/* Title */}

@@ -51,7 +51,6 @@ export function ContactSection() {
                   type="tel"
                   className="form-input"
                   placeholder="+27 66 296 8646"
-                  placeholderColor="blue"
                 />
               </div>
               <div>

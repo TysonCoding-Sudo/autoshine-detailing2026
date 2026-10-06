@@ -1,4 +1,5 @@
 import { ServiceCard } from "@/components/ui/ServiceCard";
+import { SprayCan, Layers, Palette, Hammer, Wrench, Sparkles } from "lucide-react";
 
 export function ServicesSection() {
   return (
@@ -25,7 +26,7 @@ export function ServicesSection() {
               "Professional color matching",
               "Clear protective finish",
             ]}
-            icon={Uml}
+            icon={SprayCan}
             ctaLink="#quote"
           />
 
@@ -40,7 +41,7 @@ export function ServicesSection() {
               "UV resistant finish",
               "Showroom quality finish",
             ]}
-            icon={Uml}
+            icon={Layers}
             ctaLink="#quote"
           />
 
@@ -55,7 +56,7 @@ export function ServicesSection() {
               "Custom mix formulation",
               "Final quality inspection",
             ]}
-            icon={Uml}
+            icon={Palette}
             ctaLink="#quote"
           />
 
@@ -64,12 +65,12 @@ export function ServicesSection() {
             title="Panelbeating"
             description="Expert panel repair and restoration for damaged vehicle panels"
             features={[
-              " dents removal",
+              "Dents removal",
               "Panel reshaping",
               "Surface preparation",
               "Paint readiness",
             ]}
-            icon={Uml}
+            icon={Hammer}
             ctaLink="#quote"
           />
 
@@ -83,7 +84,7 @@ export function ServicesSection() {
               "Color matching",
               "Structural integrity check",
             ]}
-            icon={Uml}
+            icon={Wrench}
             ctaLink="#quote"
           />
 
@@ -97,7 +98,7 @@ export function ServicesSection() {
               "Protection sealing",
               "Showroom finish",
             ]}
-            icon={Uml}
+            icon={Sparkles}
             ctaLink="#quote"
           />
         </div>
